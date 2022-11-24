@@ -3,7 +3,6 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.keys import Keys 
 from selenium.webdriver.common.by import By
 from telegram.ext import Updater, CommandHandler, MessageHandler
-from threading import Thread
 from time import sleep
 service = Service(executable_path="/home/fuchs/Desktop/salih_project/chromedriver")
 options = webdriver.ChromeOptions()
