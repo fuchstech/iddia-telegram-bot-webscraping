@@ -52,7 +52,7 @@ def mac(update, args):
     update.message.reply_text("requesting") 
 
     update.message.reply_text(main(i))    
-TOKEN = '5661610725:AAFHMkoak1-AEIoWOJ63bYoBkNlPL3v_LYg'
+TOKEN = ""
 
 updater = Updater(TOKEN, use_context = True)
 
